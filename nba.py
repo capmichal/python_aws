@@ -13,8 +13,8 @@ def get_nba():
     n = 1
 
     params = {
-        "page": n,
-        "per_page": 100,
+        "page": 1,
+        "per_page": 5,
         "search": "paul"
     }
 
