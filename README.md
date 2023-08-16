@@ -4,4 +4,4 @@ Python Webapp build with Flask --> |
                                    |
                                    | using Github Actions workflow CI/CD
                                    |
-                                   --> dockerize application --> upload to ECR --> deploy using ECS serverless Fargate / managed EC2 a
+                                   --> dockerize application --> upload to ECR --> deploy using ECS serverless Fargate / managed EC2 aa
