@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag nba_webapp:$(date +%s)
+      run: docker build . --file Dockerfile --tag nba_webapp:v1
     - name: Push to ECR
       id: ecr
       uses: jwalton/gh-ecr-push@v1
@@ -23,4 +23,4 @@ jobs:
         access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: us-east-1
-        image: nba_webapp:$(date +%s)
+        image: nba_webapp:v1
