@@ -6,10 +6,7 @@ import json
 def get_nba():
     url = "https://www.balldontlie.io/api/v1/players"
 
-    # headers = {
-    #     "X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
-    #     "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com"
-    # }
+    
     n = 1
 
     params = {
@@ -40,12 +37,6 @@ def get_nba():
 
     return None        
 
-    # num_players = 0
-    # for player in data["data"]:
-    #     print(player)
-    #     num_players += 1   
-
-    # return num_players
 
 
 def licz_zawodnikow():
@@ -62,13 +53,7 @@ def licz_zawodnikow():
 
 print(get_nba())
 
-#zawodnicy = licz_zawodnikow()
 
-
-# for line in zawodnicy:
-#     for zawodnik in line["data"]:
-#         if (zawodnik["first_name"] == "LeBron") and (zawodnik["last_name"] == "James"):
-#             print(zawodnik)
 
 
 
