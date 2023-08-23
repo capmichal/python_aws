@@ -19,4 +19,4 @@ A small Python web application written using **Flask**. Application gets basic i
 Application makes use of an amazing **API** from: https://app.balldontlie.io/
 
 ## Pipeline Visualization
-<img width="763" alt="image" src="https://github.com/capmichal/python_aws/assets/130446782/ae369637-4725-4e65-9638-9efc663f029d">
+<img width="1152" alt="github-actions" src="https://github.com/capmichal/python_aws/assets/130446782/f25da2e3-80bb-4cbc-8e60-815683537185">
